@@ -199,3 +199,6 @@ export default function Page() {
     </>
   );
 }
+
+// docker command: to pull livekit server image
+//docker run --rm -it -v "${PWD}:/output" livekit/generate
